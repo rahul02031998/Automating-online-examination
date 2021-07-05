@@ -44,7 +44,7 @@ while(True):
             if d_outer[i] + 3 < shape[p2][1] - shape[p1][1]:
                 cnt_outer += 1 
         for i, (p1, p2) in enumerate(inner_points):
-            if d_inner[i] + 2 <  shape[p2][1] - shape[p1][1]:
+            if d_inner[i] + 2 < shape[p2][1] - shape[p1][1]:
                 cnt_inner += 1
         if cnt_outer > 3 and cnt_inner > 2:
             print('Mouth open')
